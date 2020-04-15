@@ -1,0 +1,45 @@
+body {
+    width: 60%;
+    margin: 10px auto;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 0px;
+}
+
+p {
+    display: inline; 
+    font-size: 16px;
+    
+}
+
+.red {
+    color: #ff6347;
+}
+
+.green {
+    color: #058c8c;
+}
+
+.blue {
+    color: #1e90ff;
+}
+
+.red-div {
+    width: 50%;
+    height: 250px;
+    background-color: #ff6347;
+    display: inline-block;
+    
+}
+
+.blue-div {
+    width: 50%;
+    height: 250px;
+    background-color: #1e90ff;
+    display: inline-block;
+    
+}
+div p {
+    margin: 0;
+}

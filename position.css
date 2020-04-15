@@ -1,0 +1,51 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h2 {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.red {
+    margin: 50px 0;
+    width: 100%;
+    height: 450px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    position: relative;
+    
+}
+.white {
+    width: 20%;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+}
+
+.top-right {
+    left: 80%;
+}
+
+.bottom-right {
+    top: 310px;
+}
+
+.bottom-left {
+    left: 80%;
+    top: 310px;
+}
+
+.center {
+    width: 37%;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 31.5%;
+}
